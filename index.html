@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graham Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #000000;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .container {
+            width: 90%;
+            margin: 0 auto;
+            background: #f5f5f5;
+            padding: 20px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            transition: box-shadow 0.3s ease;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: #000000;
+            color: #ffffff;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img {
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            gap: 15px;
+        }
+
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #999999;
+        }
+
+        main {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .card {
+            background: #ffffff;
+            border: 1px solid #cccccc;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .info {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #000000;
+            color: #ffffff;
+            text-align: center;
+        }
+
+        .info h2 {
+            margin-top: 0;
+        }
+
+        .creators {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .creators h3 {
+            margin: 5px;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <img src="logo.jpg" alt="Graham Store Logo">
+                <h1>Graham Store</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="card">
+                <img src="graham1.jpg" alt="Graham 1">
+                <h2>Graham 1</h2>
+                <p>Masarap</p>
+            </div>
+            <div class="card">
+                <img src="graham1.jpg" alt="Graham 2">
+                <h2>Graham 2</h2>
+                <p>Masarap</p>
+            </div>
+            <div class="card">
+                <img src="graham1.jpg" alt="Graham 3">
+                <h2>Graham 3</h2>
+                <p>Masarap</p>
+            </div>
+            <div class="card">
+                <img src="graham1.jpg" alt="Graham 4">
+                <h2>Graham 4</h2>
+                <p>Masarap</p>
+            </div>
+        </main>
+    </div>
+    <div class="info">
+        <h2>Creators</h2>
+        <div class="creators">
+            <h3>Robert Arienza</h3>
+            <h3>Mj Gomez</h3>
+            <h3>Aaron Galang</h3>
+            <h3>Carl Martinez</h3>
+            <h3>Juan Miguel Pamintuan</h3>
+            <h3>April Narciso</h3>
+            <h3>Frank Araojo</h3>
+            <h3>Paras Scott</h3>
+            <h3>Rjay Nazar Aguilar</h3>
+            <h3>Wally Dorias</h3>
+            <h3>Palo Reyland</h3>
+        </div>
+        <h2>All rights reserved 2025</h2>
+    </div>
+</body>
+</html>
